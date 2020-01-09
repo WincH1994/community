@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "github.client.id",
+      "type": "java.lang.String",
+      "description": "github.client.id."
+    },
+    {
+      "name": "github.client.secret",
+      "type": "java.lang.String",
+      "description": "github.client.secret."
+    }
+  ] }
