@@ -2,9 +2,15 @@
 
 ## 资料
 
-https://spring.io/guides
+[Spring文档](https://spring.io/guides)
 
-http://www.mawen.co
+[码匠社区](http://www.mawen.co)
+
+[Bootstrap文档](https://v3.bootcss.com/)
 
 ## 工具
-https://git-scm.com/downloads
+[Git代码管理工具下载](https://git-scm.com/downloads)
+
+
+##Github OAuth Login
+[Github OAuth 文档](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
