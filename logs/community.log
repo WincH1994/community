@@ -6,3 +6,127 @@
 2020-02-07 15:20:01.390  INFO 11492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2020-02-07 15:20:01.455  INFO 11492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
 2020-02-07 15:20:01.459  INFO 11492 --- [restartedMain] c.s.community.CommunityApplication       : Started CommunityApplication in 6.296 seconds (JVM running for 10.021)
+2020-02-07 15:21:24.476  INFO 1808 --- [restartedMain] c.s.community.CommunityApplication       : Starting CommunityApplication on WincH-PC with PID 1808 (G:\JavaProject\community\target\classes started by WincH in G:\JavaProject\community)
+2020-02-07 15:21:24.478  INFO 1808 --- [restartedMain] c.s.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-02-07 15:21:24.808  WARN 1808 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-07 15:21:24.827  INFO 1808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-07 15:21:24.827  INFO 1808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-07 15:21:27.981  INFO 1808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-02-07 15:21:27.994  INFO 1808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 15:21:27.995  INFO 1808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-07 15:21:28.150  INFO 1808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 15:21:28.150  INFO 1808 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3323 ms
+2020-02-07 15:21:30.301  INFO 1808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 15:21:30.497  INFO 1808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-07 15:21:31.330  INFO 1808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-07 15:21:31.483  INFO 1808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-07 15:21:31.492  INFO 1808 --- [restartedMain] c.s.community.CommunityApplication       : Started CommunityApplication in 8.126 seconds (JVM running for 12.073)
+2020-02-07 15:31:14.259  INFO 704 --- [restartedMain] c.s.community.CommunityApplication       : Starting CommunityApplication on WincH-PC with PID 704 (G:\JavaProject\community\target\classes started by WincH in G:\JavaProject\community)
+2020-02-07 15:31:14.267  INFO 704 --- [restartedMain] c.s.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-02-07 15:31:14.382  INFO 704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-07 15:31:14.383  INFO 704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-07 15:31:14.527  WARN 704 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-07 15:31:16.950  INFO 704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-02-07 15:31:16.964  INFO 704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 15:31:16.965  INFO 704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-07 15:31:17.084  INFO 704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 15:31:17.084  INFO 704 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2701 ms
+2020-02-07 15:31:18.083  INFO 704 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 15:31:18.172  INFO 704 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-07 15:31:18.494  INFO 704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-07 15:31:18.559  INFO 704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-07 15:31:18.564  INFO 704 --- [restartedMain] c.s.community.CommunityApplication       : Started CommunityApplication in 5.411 seconds (JVM running for 8.929)
+2020-02-07 17:33:07.611  INFO 4964 --- [restartedMain] c.s.community.CommunityApplication       : Starting CommunityApplication on WincH-PC with PID 4964 (G:\JavaProject\community\target\classes started by WincH in G:\JavaProject\community)
+2020-02-07 17:33:07.617  INFO 4964 --- [restartedMain] c.s.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-02-07 17:33:07.768  INFO 4964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-07 17:33:07.768  INFO 4964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-07 17:33:07.851  WARN 4964 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-07 17:33:10.820  INFO 4964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-02-07 17:33:10.832  INFO 4964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 17:33:10.833  INFO 4964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-07 17:33:11.087  INFO 4964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 17:33:11.088  INFO 4964 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3319 ms
+2020-02-07 17:33:20.008  INFO 7564 --- [restartedMain] c.s.community.CommunityApplication       : Starting CommunityApplication on WincH-PC with PID 7564 (G:\JavaProject\community\target\classes started by WincH in G:\JavaProject\community)
+2020-02-07 17:33:20.010  INFO 7564 --- [restartedMain] c.s.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-02-07 17:33:20.224  INFO 7564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-07 17:33:20.226  INFO 7564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-07 17:33:20.281  WARN 7564 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-07 17:33:22.703  INFO 7564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-02-07 17:33:22.715  INFO 7564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 17:33:22.715  INFO 7564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-07 17:33:22.827  INFO 7564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 17:33:22.827  INFO 7564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2599 ms
+2020-02-07 17:33:23.943  INFO 7564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 17:33:24.033  INFO 7564 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-07 17:33:24.512  INFO 7564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-07 17:33:24.622  INFO 7564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-07 17:33:24.628  INFO 7564 --- [restartedMain] c.s.community.CommunityApplication       : Started CommunityApplication in 5.597 seconds (JVM running for 7.999)
+2020-02-07 17:33:37.063  INFO 7564 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 17:33:37.064  INFO 7564 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 17:33:37.074  INFO 7564 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-02-07 17:33:37.167  INFO 7564 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 17:33:37.170  WARN 7564 --- [http-nio-8888-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 17:33:38.600  INFO 7564 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 17:33:38.609 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from question 
+2020-02-07 17:33:38.645 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-02-07 17:33:38.683 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-02-07 17:33:38.690 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.Q.selectBySearch                 : ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-02-07 17:33:38.691 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-02-07 17:33:38.702 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-02-07 17:33:38.703 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:33:38.704 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:33:38.709 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:33:38.726 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:33:38.726 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:33:38.738 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:33:38.745 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:33:38.748 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:33:38.754 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:33:38.756 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:33:38.767 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:33:38.771 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:33:38.772 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:33:38.773 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:33:38.776 DEBUG 7564 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:34:10.971  INFO 4536 --- [restartedMain] c.s.community.CommunityApplication       : Starting CommunityApplication on WincH-PC with PID 4536 (G:\JavaProject\community\target\classes started by WincH in G:\JavaProject\community)
+2020-02-07 17:34:10.976  INFO 4536 --- [restartedMain] c.s.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-02-07 17:34:11.126  INFO 4536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-07 17:34:11.126  INFO 4536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-07 17:34:11.191  WARN 4536 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-07 17:34:13.196  INFO 4536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-02-07 17:34:13.207  INFO 4536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 17:34:13.207  INFO 4536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-07 17:34:13.307  INFO 4536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 17:34:13.307  INFO 4536 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2180 ms
+2020-02-07 17:34:14.167  INFO 4536 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 17:34:14.248  INFO 4536 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-07 17:34:14.571  INFO 4536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-07 17:34:14.632  INFO 4536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-02-07 17:34:14.637  INFO 4536 --- [restartedMain] c.s.community.CommunityApplication       : Started CommunityApplication in 4.61 seconds (JVM running for 6.952)
+2020-02-07 17:34:20.251  INFO 4536 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 17:34:20.252  INFO 4536 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 17:34:20.264  INFO 4536 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-02-07 17:34:20.344  INFO 4536 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 17:34:20.347  WARN 4536 --- [http-nio-8888-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 17:34:21.694  INFO 4536 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 17:34:21.704 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from question 
+2020-02-07 17:34:21.730 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-02-07 17:34:21.756 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-02-07 17:34:21.764 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.Q.selectBySearch                 : ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-02-07 17:34:21.765 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-02-07 17:34:21.771 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-02-07 17:34:21.772 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:34:21.772 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:34:21.775 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:34:21.786 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:34:21.786 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:34:21.789 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:34:21.790 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:34:21.791 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:34:21.793 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:34:21.794 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:34:21.795 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:34:21.797 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-02-07 17:34:21.799 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, name, account_id, token, gmt_create, gmt_modify, bio, avatar_url from user where id = ? 
+2020-02-07 17:34:21.799 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-02-07 17:34:21.802 DEBUG 4536 --- [http-nio-8888-exec-1] c.s.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
