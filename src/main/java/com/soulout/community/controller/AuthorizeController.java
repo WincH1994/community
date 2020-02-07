@@ -2,9 +2,9 @@ package com.soulout.community.controller;
 
 import com.soulout.community.dto.AccesstTokenDTO;
 import com.soulout.community.dto.GithubUser;
-import com.soulout.community.mapper.UserMapper;
 import com.soulout.community.model.User;
 import com.soulout.community.provider.GithubProvider;
+import com.soulout.community.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -32,7 +32,7 @@ public class AuthorizeController {
     private String redirectUrl;
 
     @Autowired
-    private UserMapper userMapper;
+    private UserService userService;
 
     @GetMapping("/github/callback")
     public String gitHubCallback(@RequestParam(name="code") String code,
@@ -48,23 +48,24 @@ public class AuthorizeController {
         String accessToken = githubProvider.getAccessToken(accesstTokenDTO);
         GithubUser githubUser = githubProvider.getUser(accessToken);
 
-        if(githubUser != null){
+        if(githubUser != null && githubUser.getId() != null){
+
+            //
             //将用户数据存入数据库
             User user = new User();
             String token = UUID.randomUUID().toString();
             user.setToken(token);
             user.setName(githubUser.getName());
             user.setAccountId(String.valueOf(githubUser.getId()));
-            user.setGmtCreate(System.currentTimeMillis());
-            user.setGmtModify(user.getGmtCreate());
-            userMapper.insert(user);
+
+            user.setAvatarUrl(githubUser.getAvatarUrl());
+            userService.createOrUpdate(user);
             //登录成功，写session cookie
             Cookie cookie = new Cookie("token",token);
             cookie.setPath("/");
 
             response.addCookie(cookie);
 
-            request.getSession().setAttribute("user",githubUser);
             return "redirect:/";
         }else{
             //登录失败重新登录
@@ -76,5 +77,17 @@ public class AuthorizeController {
 
 
 
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpServletRequest request,HttpServletResponse response){
+        //删除cookie和session
+        request.getSession().removeAttribute("user");
+
+        Cookie cookie = new Cookie("token",null);
+        cookie.setMaxAge(0);
+        cookie.setPath("/");
+        response.addCookie(cookie);
+        return "redirect:/";
     }
 }

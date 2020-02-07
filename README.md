@@ -1,7 +1,6 @@
 ## 宙宙宙的游戏社区
 
 ## 资料
-
 [Spring文档](https://spring.io/guides)
 
 [码匠社区](http://www.mawen.co)
@@ -10,8 +9,24 @@
 
 [Spring datasource](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-configure-datasource)
 
+[Elastic Search](https://elasticsearch.cn/)
+
+[thymeleaf](https://www.thymeleaf.org/documentation.html)
+
+[Spring MVC](https://docs.spring.io/spring/docs/5.2.3.RELEASE/spring-framework-reference/web.html#mvc-config-interceptors)
+
+[editor.md](http://editor.md.ipandao.com/)
+
+[UFile](https://github.com/ucloud/ufile-sdk-java)
+
 ## 工具
 [Git代码管理工具下载](https://git-scm.com/downloads)
+
+[Postman](https://www.getpostman.com/downloads/)
+
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)
+
+[Lombok](https://projectlombok.org/)
 
 ## Github OAuth Login
 [Github OAuth 文档](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
@@ -28,4 +43,8 @@ create table if not exists user
 	gmt_create bigint,
 	gmt_modify bigint
 );
+```
+```bash
+mvn flyway:migrate
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```

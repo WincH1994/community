@@ -8,7 +8,34 @@ github:
     url: "http://127.0.0.1:8888/github/callback"
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/community
+    url: jdbc:mysql://localhost:3306/community?serverTimezone=UTC
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+#  devtools:
+#    restart:
+#      exclude: static/**
+mybatis:
+  type-aliases-package: com.soulout.community.mapper
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+ucloud:
+  ufile:
+    public-key: TOKEN_16bae7e9-94ef-49c2-9cd3-5d4d35baf02c
+    private-key: 86c474f8-a519-4160-b180-39b742d08484
+    bucket-name: soulout
+    region: cn-bj
+    suffix: ufileos.com
+    expires: 315360000
+logging:
+  file:
+    name: logs/community.log
+    max-size: 200MB
+    max-history: 30
+  level:
+    root: info
+    com:
+      soulout:
+        community:
+          mapper: debug
