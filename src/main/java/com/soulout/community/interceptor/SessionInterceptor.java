@@ -5,6 +5,7 @@ import com.soulout.community.model.User;
 import com.soulout.community.model.UserExample;
 import com.soulout.community.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -22,6 +23,9 @@ public class SessionInterceptor implements HandlerInterceptor {
 
     @Autowired
     private NotificationService notificationService;
+
+    @Value("${github.client.id}")
+    private String clientId;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -45,6 +49,10 @@ public class SessionInterceptor implements HandlerInterceptor {
                 }
             }
         }
+
+        //将github登录应用ID 设置session
+        request.getSession().setAttribute("clientId", clientId);
+
         return true;
     }
 

@@ -70,5 +70,6 @@ create table if not exists user
 ```
 ```bash
 mvn flyway:migrate
+mvn flyway:repair
 mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```

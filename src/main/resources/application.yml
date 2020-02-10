@@ -2,8 +2,10 @@ server:
   port: 8888
 github:
   client:
-    id: "bc4c1e4efac90a3b8692"
-    secret: "6c52a2c9942690b4e8d9ed962bd42309da904acf"
+#    id: "bc4c1e4efac90a3b8692"
+#    secret: "6c52a2c9942690b4e8d9ed962bd42309da904acf"
+    id: "02e2916a71d384c6a4a6"
+    secret: "d651580d938b5cf6b30cb114eec1740fea8bcdf0"
   redirect:
     url: "http://127.0.0.1:8888/github/callback"
 spring:
@@ -35,7 +37,15 @@ logging:
     max-history: 30
   level:
     root: info
-    com:
-      soulout:
-        community:
-          mapper: debug
+alipay:
+  app:
+    id: "2016010401061515"
+  private:
+    key: "MIIEowIBAAKCAQEA9cKYQBdX9BVJaLnUoj1oSre6p+Ogu793nQ0iDafKeRf3lVdpL2nHkGYCGyL6WTyWBVlxIVfzPswotGF3S8stW1nLR2uV1/Pbz28VVCMVX+Gg5zfjt91F4Lr1o5WSyUclDrb18/fViofgGxXYH8/phMn+ROFTtyAV0KaXQlrX16FWoPUsoDMYK3fxaEnoQyN1+Mn3Iqjgm0deboohvVv1Hj9T9E+TJRDhrcnVArxOTy5iY6hmae1m1cnef/HKtNrB0u17QDuc9C6RxyN+/9r09zKFT8QZeMV70vKvKecQiGpcZJrnkEvy6U80YOmqK4bh8T7tzM2XC5+SesxqeEF4hQIDAQABAoIBACqyZjUsWRGE6T4Smwic1pO0m+8zMuereiKE95ebwSeMrGz7xMCCBjPmJROF3izGw+GmCmualh4g5imAjXNTl0u5rAF6hYwBR/0f9XqqpboEvymsohl9jfhfQvHquJfTjnKiAtUiB62LsbnC78uHGbECTvS0mRDFuESJzNmwYrOJcxJEbXqM3KSQGcApnnpX+2eZx3prNj8ROdpqUsSrs9kkWA9ntR6E77lH6Ny+Igh/qpbzcjGWvBz4KOS3O4LmgSHQkdVQy/F0zPbeAqPzG8OwYvMq3Z6ObXxFQzo8036TV+rGleaY/zIBm7tv82kgGfjPyD7A16WpMJYg3Z+YUrkCgYEA/zAi6Li66JOpK56X+NmlWmfxeUyshwYmLfobvk/96hNwwtnIq41H8KJsQWAPmzukyyyUCwQIve9FWu2lNPydc37TamX1movSvS2Jo4OTq9GDxy8Z5FUW+elMWZN5eGK026bIyVcDxgcHUcZPVs3i4yUcuEeOjmFwSmpJEK4eEt8CgYEA9orHY4oQdsocEJAbGYwm92BYFcbQ8PtaRv3ZEdV03/1Ecc/XVvjp2jIuRIXffs9UGY/juK6suhWuslFogSqi7opiYalssrg0S2lfubc8i4BVbEB2Bw+JAO4hMmOomQPf5WvJ6zQ5s1Bu4Lya+ykKIwVK+IhTFJHiKBuh46ZM5RsCgYEAkXXx4DA0spBA9RFA1WPSwnbPiXIwQgM6TijsGY5lUUFlnFwh68/ruvoKtTU5kCXuaLXvaVwSU5oJMayW6F46rfQUNOkLl92t8ZH8jA1bZqxV7nslyibKowfeMo1Cx2GUcERg3YvRJdcpz+43mWZgt1OXTF/VncljBbgSEAUANYcCgYBjOxRpwgZCabLGD9p4e+qrIsIRccZjWCfL7xxRi0LRbNUBohAgV2t4gT4SIngESFqnNz0G9ndbJqL77rxLUOfnbxeOC21OucmCmNUIoPHjjDHVslRPHzebgj0mVOplPCP/6VSKMKkQvU0Dc6ZFdQ05b0Xvpp8Z5mXKkuSkBilpBQKBgFlD1jIa3HgSUbZLa7bqqeCOEYRCHen3eCxUArgbQmX5G9hFzhwb/l4x0+vvMPGAYoe8DMzg02f4Mhri3QX+zjMLgtHaBDaBl52iZC/G55AV2l1Olpum4CcKcmn0hxwbd5ioxzo4sKoP5e+rwLppcAQpQicTBGzrEyGb4HfTNLU5"
+  public:
+    key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAplbT5KK7LEh3gGk/pVylKcKhiitGGDuX0JpLQdFUHCxZ0udLCE8QTZceeeN1/1wT0mFGC8cec91x1sZP3j1ldDAjDmedb9kCaHUemdD6CZ624p9CiEM2LX+u4HCU5wQe48qLknzWD8pZLq8KAY0NTttAamVfqd2Pv199qARNIXws8vmnlAvZ90jveI+YruueNJ3KxKuLvoyQRDaB0uE354kvqNbQJY1k9HT3UfNMnRxn4HrMJAmO21jlGKd7x2E7A9zQvL7b8OpeJihiNCLEgEnvKlVn8CEyLyzfRGWnZXcOhufB+fcdfw2KKTIfh+m7ai4nHQRlJA15tZGtjP5NgwIDAQAB"
+  charset: "utf-8"
+  format: "json"
+  signType: "RSA2"
+  client:
+    url: "https://openapi.alipay.com/gateway.do"
