@@ -38,6 +38,8 @@ public class QuestionService {
         if(StringUtils.isNotBlank(search)){
             String[] searchs = StringUtils.split(search, " ");
             search = String.join("|", searchs);
+        }else{
+            search = null;
         }
 
         PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
