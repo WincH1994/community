@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title th:text="${question.title}"></title>
+    <title>视频教程</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -19,6 +19,15 @@
 <div th:insert="~{navigation :: nav}"></div>
 <div class="container-fluid main">
     <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12 video">
+            <a href="/video/av65117012"><img src="/img/spring-boot.jpg" alt=""></a>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 video">
+            <a href="/video/av65117012"><img src="/img/git-github.jpg" alt=""></a>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 video">
+            <a href="/video/av65117012"><img src="/img/selenium.jpg" alt=""></a>
+        </div>
     </div>
 </div>
 <div th:insert="~{footer :: foot}"></div>
